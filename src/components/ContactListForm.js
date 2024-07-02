@@ -25,7 +25,7 @@ const ContactListForm = (props) => {
     // checking that user not give empty inputs
     if (name?.trim() === "" || number?.trim() === "") {
       addToast(
-        "You have to enter name and phone number both to create contact",
+        "Você Deve Preencher todos os campos acima para Adicionar o numero a lista de contatos",
         {
           appearance: "warning",
         }
@@ -39,7 +39,7 @@ const ContactListForm = (props) => {
       id,
     });
     // show toast funtion for for show notification
-    addToast("Contact added successfully!", {
+    addToast("Contato adicionado com Sucesso", {
       appearance: "success",
     });
     // it handled the dummy post funtion
@@ -58,21 +58,21 @@ const ContactListForm = (props) => {
       <form>
         <input
           type="text"
-          placeholder="Full Name"
+          placeholder="Nome Completo"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
         />
         <input
           type="text"
-          placeholder="Phone No."
+          placeholder="Telefone"
           value={number}
           onChange={(e) => setNumber(e.target.value)}
           required
         />
         <input
           type="email"
-          placeholder="Email id"
+          placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required

@@ -20,7 +20,7 @@ const Home = () => {
           src="https://cdn-icons-png.flaticon.com/512/7945/7945013.png"
           alt="contact-list-icon"
         />
-         {' '}My Contact List
+         {' '}Lista de Contatos
       </h1>
       <ContactListForm contactTempData = {fetchNewData}/>
       <ContactList data={newData}/>

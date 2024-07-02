@@ -125,7 +125,7 @@ const ContactList = (props) => {
           <div className="modal-content bg-info">
             <div className="modal-header">
               <h1 className="modal-title fs-5" id="exampleModalLabel">
-                Edit Contact
+                Editar Contato
               </h1>
               <button
                 type="button"
@@ -138,7 +138,7 @@ const ContactList = (props) => {
               <div className="modal-body">
                 <div className="mb-3">
                   <label htmlFor="exampleInputEmail1" className="form-label">
-                    Name
+                    Nome
                   </label>
                   <input
                     type="text"
@@ -153,7 +153,7 @@ const ContactList = (props) => {
                 </div>
                 <div className="mb-3">
                   <label htmlFor="exampleInputEmail1" className="form-label">
-                    Phone Number
+                    Telefone
                   </label>
                   <input
                     type="text"
@@ -191,7 +191,7 @@ const ContactList = (props) => {
                 className="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
-                Close
+                Fechar
               </button>
               <button
                 onClick={handleEditOnClick}
@@ -199,7 +199,7 @@ const ContactList = (props) => {
                 className="btn btn-success"
                 data-bs-dismiss="modal"
               >
-                Save changes
+                Salvar Alterações
               </button>
             </div>
           </div>
@@ -216,7 +216,7 @@ const ContactList = (props) => {
                   src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
                   className={Styles.contactIcons}
                 />{" "}
-                Name
+                Nome
               </h5>
             </div>
             <div className={Styles.contacHeadingElement}>
@@ -226,7 +226,7 @@ const ContactList = (props) => {
                   src="https://cdn-icons-png.flaticon.com/512/4213/4213179.png"
                   className={Styles.contactIcons}
                 />{" "}
-                Phone No.
+                Telefone
               </h5>
             </div>
             <div className={`${Styles.contacHeadingElement} ${Styles.hidden}`}>
